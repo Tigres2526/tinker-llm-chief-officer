@@ -1,0 +1,19 @@
+{
+  "name": "tinker-llm-chief-officer-marketplace",
+  "owner": {
+    "name": "Tigres2526",
+    "url": "https://github.com/Tigres2526"
+  },
+  "plugins": [
+    {
+      "name": "tinker-llm-chief-officer",
+      "description": "Claude Code skill for LoRA/QLoRA fine-tuning and evaluation of open-weight LLMs using Tinker API",
+      "version": "1.0.0",
+      "author": {
+        "name": "Tigres2526"
+      },
+      "license": "MIT",
+      "source": "./"
+    }
+  ]
+}
