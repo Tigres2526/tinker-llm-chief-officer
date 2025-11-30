@@ -1,0 +1,25 @@
+# Base Tinker LoRA run
+base_model: "meta-llama/Llama-3.1-8B-Instruct"
+run_name: "llama3-8b-support-bot"
+
+# Paths to JSONL data
+train_file: "data/train.jsonl"
+val_file: "data/val.jsonl"
+
+# LoRA configuration
+lora_rank: 32
+train_mlp: true
+train_attn: true
+train_unembed: true
+
+# Sequence and batching
+max_seq_len: 2048
+train_batch_size: 16
+
+# Optimization
+# If null, sl_trainer.py will try to use hyperparam_utils.get_lr(base_model, is_lora=True)
+learning_rate: null
+weight_decay: 0.0
+num_steps: 5000
+eval_every: 200
+num_epochs: 1

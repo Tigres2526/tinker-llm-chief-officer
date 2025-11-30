@@ -1,0 +1,12 @@
+{
+  "name": "tinker-llm-chief-officer",
+  "version": "1.0.0",
+  "description": "Design and run LoRA/QLoRA fine-tuning, RL, RLHF, and evaluation pipelines for open-weight LLMs using the Tinker API",
+  "author": {
+    "name": "Tigres2526",
+    "url": "https://github.com/Tigres2526"
+  },
+  "repository": "https://github.com/Tigres2526/tinker-llm-chief-officer",
+  "license": "MIT",
+  "keywords": ["tinker", "llm", "fine-tuning", "lora", "qlora", "rlhf", "dpo", "evaluation", "inspect-ai"]
+}
